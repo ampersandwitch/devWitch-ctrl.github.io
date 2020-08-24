@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+/* Sections */
+
+.color-section {
+  background-color: #aacfcf;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;;
+}
+.title-image {
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .testimonial-image {
+    width: 40%;
+  }
+}
+
+/* Features */
+#features {
+  /* font-family: "Montserrat-700", sans-serif;
+      font-size: 1.5rem; */
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Projects */
+#projects {
+  padding: 100px;
+}
+
+.projects-header {
+  padding-bottom: 3%;
+}
+
+.project-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.projects-column {
+  padding: 3% 2%;
+}
+
+.tindoggo {
+  background-color: #ff4c68;
+}
+
+/* Call to action */
+#cta {
+  color: black;
+  padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+}
+
+.footer-links {
+  padding-right: 50px;
+}
+
+.copyright-footer {
+  padding-top: 10px;
+  color: black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  width: 50%;
+}
