@@ -1,0 +1,114 @@
+:root {
+    font-size: calc(3vmin);
+  }
+
+  @media (min-width: 650px) and (orientation: landscape) {
+    :root {
+      font-size: 1vmax;
+    }
+  }
+
+  body * {
+    transition: 0.1s;
+  }
+
+  body {
+    align-items: center;
+    background-color: dimgrey;
+    background-image: url(https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5338725f424dd59c48da793588507310);
+    background-size: cover;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h1 span {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    width: 100%;
+  }
+
+  p {
+    border: 1px solid transparent;
+  }
+
+  form {
+    background-color: red;
+    border: none;
+    border-radius: 3em;
+    box-shadow: 0.2rem 0.5rem 0.1rem 0rem rgba(0,0,0,0.25);
+    overflow: hidden;
+    position: relative;
+    transform: rotate(-3deg);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    transition: all .25s ease-in;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 28em;
+  }
+
+  form:hover {
+      box-shadow: -0.8rem 1.4rem 0.2rem 0rem rgba(0,0,0,0.25);
+    transition: all .25s ease-in;
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+
+  form:before {
+     background-blend-mode: multiply;
+     background-image: linear-gradient(-30deg, rgba(0,0,0,0.05) 60%,rgba(0,0,0,0.2) 90%,rgba(0,0,0,0.05) 100%);
+    content: '';
+    height: 100%;
+    position: fixed;
+    width: 100%;
+  }
+
+  form:hover:before {
+    background-blend-mode: multiply;
+    background-image: linear-gradient(-35deg, rgba(0,0,0,0.05) 50%,rgba(0,0,0,0.1) 80%,rgba(0,0,0,0.05) 100%);
+  }
+
+  fieldset {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    height: 12em;
+    margin-bottom: 1.4rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  p {
+    cursor: pointer;
+    font-size: 3em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    text-align: center;
+    transform: rotate(1deg);
+    width: 100%;
+  }
+
+  legend {
+    display: none;
+  }
